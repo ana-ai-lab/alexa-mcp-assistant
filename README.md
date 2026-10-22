@@ -17,6 +17,6 @@ An agentic productivity assistant integrated with a custom **Model Context Proto
 
 1. **Clone the repository:**
    ```bash
-   git clone [suspicious link removed]
+   git clone [https://github.com/ana-ai-lab/alexa-mcp-assistant]
    cd alexa-mcp-assistant
    
