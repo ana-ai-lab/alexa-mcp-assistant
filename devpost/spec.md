@@ -48,7 +48,7 @@ The system follows a lightweight, decoupled **Model Context Protocol (MCP)** arc
 
 ## 4. Gemini API & Orchestration Logic
 
-- **Model:** Google Gemini API (`gemini-3.8-flash` / `gemini-1.5-flash`)
+- **Model:** Google Gemini API (`gemini-3.5-flash` / `gemini-3.8-flash`)
 - **System Prompt:** You are Alexa+, an agentic productivity assistant integrated with a Model Context Protocol (MCP) server. Your goal is to assist users in transforming raw thoughts, meeting notes, and tasks into structured action plans.
 - **Workflow:**
   1. User enters prompt in Streamlit UI.

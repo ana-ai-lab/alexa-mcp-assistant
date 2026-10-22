@@ -33,7 +33,7 @@ Implementación de un servidor MCP ligero que expone **3 herramientas agénticas
 * Visualizador de ejecución agéntica que muestra en tiempo real qué herramienta MCP se está invocando y con qué parámetros.
 
 ### C. Motor de Razonamiento (Google Gemini API)
-* Uso de `gemini-1.5-flash` / `gemini-3.8-flash` como orquestador de intenciones para decidir qué herramienta MCP invocar según la solicitud del usuario.
+* Uso de `gemini-3.5-flash` / `gemini-3.8-flash` como orquestador de intenciones para decidir qué herramienta MCP invocar según la solicitud del usuario.
 
 ---
 
