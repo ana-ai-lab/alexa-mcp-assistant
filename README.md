@@ -2,7 +2,7 @@
 
 > **Submission for the Build, Ship, Shape: Amazon Developer Hackathon**
 
-An agentic productivity assistant integrated with a custom **Model Context Protocol (MCP)** server in Python, powered by **Google Gemini 1.5 Flash** and a **Streamlit** user interface.
+An agentic productivity assistant integrated with a custom **Model Context Protocol (MCP)** server in Python, powered by **Google Gemini 3.5 Flash** and a **Streamlit** user interface.
 
 ---
 
