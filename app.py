@@ -85,7 +85,7 @@ if prompt := st.chat_input("¿En qué puedo ayudarte hoy con tus tareas o reunio
         with st.chat_message("assistant"):
             with st.spinner("Alexa+ procesando la consulta con el servidor MCP..."):
                 response = client.models.generate_content(
-                    model="gemini-3.8-flash",
+                    model="gemini-3.5-flash",
                     contents=prompt,
                     config=types.GenerateContentConfig(
                         system_instruction=system_instruction,
@@ -118,7 +118,7 @@ if prompt := st.chat_input("¿En qué puedo ayudarte hoy con tus tareas o reunio
                         )
                         
                         final_response = client.models.generate_content(
-                            model="gemini-3.8-flash",
+                            model="gemini-3.5-flash",
                             contents=synthesis_prompt
                         )
                         output_text = final_response.text
